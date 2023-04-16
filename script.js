@@ -175,17 +175,82 @@ $("#nogreet").click(function(){
     $(".22").show();
 });
 
+// interupt route
 $("#interupt").click(function(){
     $(".hide").hide();
-    $(".22").show();
+    $(".221").show();
 });
 
+$("#endure2").click(function(){
+    $(".hide").hide();
+    $(".2213").show();
+});
+
+$("#talk3").click(function(){
+    $(".hide").hide();
+    $(".2213").show();
+});
+
+$(".2213").click(function(){
+    $(".hide").hide();
+    $(".22133").show();
+});
+
+$(".22133").click(function(){
+    $(".hide").hide();
+    $(".221333").show();
+});
+
+$("#home3").click(function(){
+    $(".hide").hide();
+    $(".2213332").show();
+    $(".advice-button").show();
+});
+
+$("#gathering").click(function(){
+    $(".hide").hide();
+    $(".2213331").show();
+});
+
+$("#talk4").click(function(){
+    $(".hide").hide();
+    $(".22133311").show();
+});
+
+$(".22133311").click(function(){
+    $(".hide").hide();
+    $(".221333113").show();
+});
+
+$("#home4").click(function(){
+    $(".hide").hide();
+    $(".22133312").show();
+});
+
+$(".22133312").click(function(){
+    $(".hide").hide();
+    $(".221333123").show();
+    $(".advice-button").show();
+});
+// ignore route done
 $("#ignore2").click(function(){
     $(".hide").hide();
-    $(".22").show();
+    $(".222").show();
+});
+$(".222").click(function(){
+    $(".hide").hide();
+    $(".2223").show();
+});
+$(".2223").click(function(){
+    $(".hide").hide();
+    $(".22233").show();
 });
 
-
+$(".22233").click(function(){
+    $(".hide").hide();
+    $(".222333").show();
+    $(".advice-button").show();
+});
 
 
 
@@ -196,4 +261,12 @@ $(".advice-button").click(function(){
     $(".game-content").hide();
     $(".advice-column").show();
     $(".restart").show();
+});
+
+$(".restart").click(function(){
+    $("#mental").css('width','100%');
+    $("#health").css('width','100%');
+    $(".hide").hide();
+    $(".game-content").hide();
+    $(".start").hide();
 });
