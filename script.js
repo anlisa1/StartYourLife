@@ -42,6 +42,8 @@ $("#together").click(function(){
 $("#run").click(function(){
     $(".hide").hide();
     $(".21111").show();
+    $("#mental").css("width",'80%');
+    $("#health").css("width",'80%');
 });
 
 // sleep route ending
@@ -199,6 +201,7 @@ $(".2213").click(function(){
 $(".22133").click(function(){
     $(".hide").hide();
     $(".221333").show();
+    $("#mental").css('width','80%');
 });
 
 $("#home3").click(function(){
@@ -236,10 +239,15 @@ $(".22133312").click(function(){
 $("#ignore2").click(function(){
     $(".hide").hide();
     $(".222").show();
+    $("#mental").css("width",'60%');
+    $("#health").css("width",'60%');
+    
 });
 $(".222").click(function(){
     $(".hide").hide();
     $(".22233").show();
+    $("#mental").css("width",'40%');
+    $("#health").css("width",'20%');
 });
 
 $(".22233").click(function(){
@@ -266,5 +274,5 @@ $(".restart").click(function(){
     $("#health").css('width','100%');
     $(".hide").hide();
     $(".game-content").hide();
-    $(".start").hide();
+    $(".start").show();
 });
