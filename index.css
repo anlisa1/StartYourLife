@@ -1,0 +1,91 @@
+body{
+    background-color:#BDFFFD;
+}
+
+div{
+    background-color:cornflowerblue;
+    color:aliceblue;
+}
+
+.header{
+    margin:0%;
+    padding:1%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.information{
+    text-align:center;
+    font-size:150%;
+    margin-top:1%;
+    padding-top:1%;
+}
+
+input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+
+input[type="radio"]:checked+label,
+.Checked+label {
+    border: 4px black solid;
+    size:120%;
+}
+
+.user_icon{
+    display:flex;
+    justify-content:center;
+}
+
+.icon{
+    margin:1.5%;
+}
+
+
+#start-button{
+    text-decoration:none;
+    margin-left:40%;
+    background-color:cornflowerblue;
+    font-size:140%;
+    margin-top:1%;
+    padding: 2% 7%;
+    color:white;
+    border:inset white 7px;
+    font-weight:bolder;
+}
+
+#start-button:hover{
+    padding: 2% 8%;
+    background-color:darkslateblue;
+    text-decoration:none;
+    color:white;
+}
+
+/* game-content stuff */
+
+.player_interface{
+    background-color:#1441FF;
+}
+
+.user-status{
+    display:flex;
+    background-color:#0005D9;
+    border:outset #14008A 6px;
+}
+
+.game-image{
+    width:5%;
+    margin:3%;
+    height:90px;
+}
+
+#healthbar, #mentalbar{
+    padding:0%;
+    height:15%;
+    width:40%;
+    border-radius:5%;
+    border:solid 5px black;
+    margin-top:3%;
+    margin-right:3%;
+    background-color:lightgray;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Life</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="start">
+        <div class="header">
+            <h1> Start Your Life </h1>
+            <h1> : </h1>
+            <h1>Alternate Reality Simulation</h1>
+        </div>
+        <div>
+            <div class="information">
+                <p>Welcome to an alternate reality, different choices will lead to different endings.</p>
+                <p>Different Endings will lead to Different Futures</p>
+                <p>Please choose a player icon to accompany you throughout the game!</p>
+            </div>
+            
+            <div class="user_icon">
+                <div class="icon">
+                    <input name='icon' type='radio' value='rabbit' id='rabbit'>
+                    <label for="rabbit"><img src="./user_image/rabbit.png"></label>
+                </div>
+                <div class="icon">
+                    <input name='icon' type='radio' value='bear' id='bear' checked="checked">
+                    <label for="bear"><img src="./user_image/bear.png"></label>
+                </div>
+                <div class="icon">
+                    <input name='icon' type='radio' value='cat' id='cat'>
+                    <label for="cat"><img src="./user_image/cat.png"></label>
+                </div>
+            </div>
+        </div>
+        <button id="start-button">Let's GO!</button>
+    </div>
+    <div class="game-content">
+        <div class="player_interface">
+            <div class="user-status">
+                <img class='game-image' src="./user_image/cat.png">
+                <div id="healthbar">
+                    <img id='health'  width='100%' src="./progressbar/red.png">
+                </div>
+                <div id="mentalbar">
+                    <img id='mental' width="100%" src="./progressbar/green.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
