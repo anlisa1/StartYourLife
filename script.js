@@ -239,10 +239,6 @@ $("#ignore2").click(function(){
 });
 $(".222").click(function(){
     $(".hide").hide();
-    $(".2223").show();
-});
-$(".2223").click(function(){
-    $(".hide").hide();
     $(".22233").show();
 });
 
@@ -251,6 +247,8 @@ $(".22233").click(function(){
     $(".222333").show();
     $(".advice-button").show();
 });
+
+
 
 
 
