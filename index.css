@@ -2,7 +2,7 @@ body{
     background-color:#BDFFFD;
 }
 
-div{
+.start, .header{
     background-color:cornflowerblue;
     color:aliceblue;
 }
@@ -87,5 +87,51 @@ input[type="radio"]:checked+label,
     border:solid 5px black;
     margin-top:3%;
     margin-right:3%;
+    background-color:lightgray;
+}
+
+h4{
+    padding:1%;
+    font-size:200%;
+    font-weight:bolder;
+    color:white;
+}
+
+button{
+    padding: 2% 7%;
+    background-color:cornflowerblue;
+    text-decoration:none;
+    color:white;   
+}
+
+button:hover{
+    padding: 2% 5%;
+    background-color:darkslateblue;
+    text-decoration:none;
+    color:white;   
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+}
+
+.hide{
+    text-align:center;
+}
+
+.space-between{
+    display:flex;
+    justify-content:space-around;
+    margin:2%;
+}
+
+.ending-good{
+    background-color:orange;
+}
+.ending-bad{
+    background-color:rgb(81, 4, 4);
+}
+.ending-regular{
     background-color:lightgray;
 }
